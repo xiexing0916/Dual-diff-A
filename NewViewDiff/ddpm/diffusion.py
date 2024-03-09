@@ -848,8 +848,7 @@ class Trainer(object):
         self.dl = cycle(dl)
 
         wandb.init(project="twoview_diffusion")
-        artifact = wandb.Artifact(name='twoview_diffusion', type='project')
-        artifact.add_file('E:/workspace/AX2CT/twoview_diffusion/ddpm/diffusion.py')
+
 
         wandb.watch(self.model, log="all", log_freq=100, log_graph=False)
 
@@ -953,7 +952,7 @@ class Trainer(object):
                 data = data.cuda()
 
                 with autocast(enabled=self.amp):
-                    mse_loss = self.model(  # diffusion的forward
+                    mse_loss = self.model( 
                         data,
                         self_cond=None,
                         prob_focus_present=prob_focus_present,
