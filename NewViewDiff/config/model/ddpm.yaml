@@ -1,5 +1,4 @@
 vqgan_ckpt: ""
-# E:/workspace/AX2CT/addnoise_diffusion/checkpoints/vq_gan/LIDC/version_4/checkpoints/latest_checkpoint-v2.ckpt
 # Have to be derived from VQ-GAN Latent space dimensions
 vqgan_ckpt_bp: ""
 vqgan_ckpt_bp0: ""
@@ -11,7 +10,7 @@ diffusion_depth_size: 32
 diffusion_num_channels: 8
 dim_mults: [1, 2, 4, 8]
 out_dim: 8
-results_folder: E:/workspace/AX2CT/newview_diffusion/checkpoints/ddpm
+results_folder: 
 results_folder_postfix: ''
 load_milestone: ""
 
@@ -27,7 +26,7 @@ denoising_fn: old_Unet3D
 train_lr: 2e-4
 timesteps: 100 # number of steps
 pose_timesteps: 1
-sampling_timesteps: 250 # number of sampling timesteps (using ddim for faster inference [see citation for ddim paper])
+sampling_timesteps: 100 # number of sampling timesteps (using ddim for faster inference [see citation for ddim paper])
 loss_type: l2 # L1 or L2
 train_num_steps: 500000 # total training steps
 gradient_accumulate_every: 1 # gradient accumulation steps
