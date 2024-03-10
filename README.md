@@ -67,8 +67,7 @@ model.dim_mults=[1,2,4,8]
 model.batch_size=2
 model.gpus=1`
 
-The above is the training and validation process of the diffusion model, 
-and other codes will be released in the future. (VQ-GAN with BP, New view synthesis)
+## Other codes will be released after publication. (VQ-GAN with BP, New view synthesis)
 
 ## Acknowledgement
 This code is build on the following repositories:
