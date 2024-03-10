@@ -1,0 +1,18 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.8.18",
+    "heartbeatAt": "2024-03-10T13:37:32.791490",
+    "startedAt": "2024-03-10T13:37:27.030416",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 4090",
+    "gpu_count": 1,
+    "cpu_count": 32,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "E:/workspace/AX2CT/NewViewDiff/train/train_ddpm.py",
+    "codePath": "train_ddpm.py",
+    "host": "DESKTOP-SL4G7T4",
+    "username": "XieXing",
+    "executable": "F:\\ProgramData\\anaconda3\\envs\\medicaldiffusion\\python.exe"
+}
