@@ -19,7 +19,7 @@ Subsequently, download and install the required libraries by running
 
 `pip install -r requirements.txt`
 
-##Dataset
+## Dataset
 You need to download the publicly available 
 [LIDC-IDRI](https://wiki.cancerimagingarchive.net/pages/viewpage.action?pageId=1966254) dataset 
 and preprocess the data following [X2CT-GAN](https://github.com/kylekma/X2CT)
