@@ -1,5 +1,5 @@
 # DVG-Diffusion
-An Official Implementation of DVG-Difusion.
+An Official Implementation of DVG-Diffusion.
 
 ![framework.png](framework.png)
 
