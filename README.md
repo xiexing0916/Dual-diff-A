@@ -1,6 +1,5 @@
-# DVG-Diffusion
+# DVG-Diffusion: Dual-View Guided Diffusion Model for CT Reconstruction from X-Rays
 
-## _Unleashing the Potential of Large Language Models for Text-to-Image Generation through Autoregressive Representation Alignment_
 
 <div align="center">
   
