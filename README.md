@@ -74,4 +74,12 @@ This code is build on the following repositories:
 
 https://github.com/FirasGit/medicaldiffusion
 
+## 📚 BibTeX
+```bibtex
+@article{xie2025dvg,
+  title={DVG-Diffusion: Dual-View Guided Diffusion Model for CT Reconstruction from X-Rays},
+  author={Xie, Xing and Liu, Jiawei and Fan, Huijie and Han, Zhi and Tang, Yandong and Qu, Liangqiong},
+  journal={arXiv preprint arXiv:2503.17804},
+  year={2025}
+}
 
