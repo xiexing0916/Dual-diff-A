@@ -1,5 +1,12 @@
 # DVG-Diffusion
-An Official Implementation of DVG-Diffusion.
+
+## _Unleashing the Potential of Large Language Models for Text-to-Image Generation through Autoregressive Representation Alignment_
+
+<div align="center">
+  
+[![arXiv](https://img.shields.io/badge/arXiv%20paper-2503.17804-b31b1b.svg)](https://arxiv.org/abs/2503.17804)&nbsp;
+
+</div>
 
 ![framework.png](framework.png)
 
